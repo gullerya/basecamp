@@ -48,11 +48,13 @@
 		"url": "https://github.com/gullerya/object-observer"
 	},
 	"scripts": {
-		"build": "node ./ci/tools/build-utils.js",
-		"lint": "eslint -c ./ci/.eslintrc.json ./src/*.js ./tests/*.js ./ci/**/*.js"
+		"build": "",
+		"lint": "eslint -c ./ci/.eslintrc.json ./src/*.* ./tests/*.js ./ci/**/*.js",
+		"test": ""
 	},
 	"dependencies": {
-		"data-tier": "^3.5.2"
+		"data-tier": "^3.5.2",
+		"object-observer": "^4.7.2"
 	},
 	"devDependencies": {
 		"eslint": "^8.6.0"

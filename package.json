@@ -1,60 +1,32 @@
 {
-	"name": "object-observer",
-	"version": "4.7.2",
-	"description": "object-observer utility provides simple means to (deeply) observe specified object/array changes; implemented via native Proxy; changes delivered in a synchronous way",
+	"name": "gullerya-basecamp",
+	"version": "0.0.1",
+	"description": "basecamp - website for the gullerya organisation",
 	"keywords": [
-		"object",
-		"array",
-		"observe",
-		"observer",
-		"object observe",
-		"object.observe",
-		"observable",
-		"changes",
-		"deep",
-		"tree",
-		"graph",
-		"javascript",
-		"proxy"
+		"gullerya"
 	],
-	"homepage": "https://github.com/gullerya/object-observer",
+	"homepage": "https://github.com/gullerya/basecamp",
 	"bugs": {
-		"url": "https://github.com/gullerya/object-observer/issues",
+		"url": "https://github.com/gullerya/basecampwe/issues",
 		"email": "gullerya@gmail.com"
 	},
 	"license": "ISC",
-	"files": [
-		"dist",
-		"sri.json"
-	],
-	"main": "./dist/object-observer.min.js",
-	"browser": "./dist/object-observer.min.js",
-	"types": "./dist/object-observer.d.ts",
 	"type": "module",
 	"author": {
 		"name": "Yuri Guller",
 		"email": "gullerya@gmail.com"
 	},
-	"funding": [
-		{
-			"url": "https://paypal.me/gullerya?locale.x=en_US"
-		},
-		{
-			"url": "https://tidelift.com/funding/github/npm/object-observer"
-		}
-	],
 	"repository": {
 		"type": "git",
-		"url": "https://github.com/gullerya/object-observer"
+		"url": "https://github.com/gullerya/basecamp"
 	},
 	"scripts": {
-		"build": "node ./ci/tools/build-utils.js",
-		"lint": "eslint -c ./ci/.eslintrc.json ./src/*.js ./tests/*.js ./ci/**/*.js"
+		"lint": "eslint -c ./ci/.eslintrc.json ./src/*.js"
 	},
 	"dependencies": {
 		"data-tier": "^3.5.2"
 	},
 	"devDependencies": {
-		"eslint": "^8.6.0"
+		"eslint": "^8.9.0"
 	}
 }

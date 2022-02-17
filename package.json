@@ -1,21 +1,32 @@
 {
 	"name": "gullerya-basecamp",
-	"version": "0.0.1",
-	"description": "basecamp - website for the gullerya organisation",
+	"version": "1.0.0",
+	"description": "GullerYA basecamp is a website of GullerYA organization",
 	"keywords": [
-		"gullerya"
+		"gullerya",
+		"architecture",
+		"open source",
+		"about"
 	],
 	"homepage": "https://github.com/gullerya/basecamp",
 	"bugs": {
-		"url": "https://github.com/gullerya/basecampwe/issues",
+		"url": "https://github.com/gullerya/basecamp/issues",
 		"email": "gullerya@gmail.com"
 	},
 	"license": "ISC",
+	"files": [
+		"bin"
+	],
 	"type": "module",
 	"author": {
 		"name": "Yuri Guller",
 		"email": "gullerya@gmail.com"
 	},
+	"funding": [
+		{
+			"url": "https://paypal.me/gullerya?locale.x=en_US"
+		}
+	],
 	"repository": {
 		"type": "git",
 		"url": "https://github.com/gullerya/basecamp"
@@ -24,7 +35,8 @@
 		"lint": "eslint -c ./ci/.eslintrc.json ./src/*.js"
 	},
 	"dependencies": {
-		"data-tier": "^3.5.2"
+		"data-tier": "^3.5.2",
+		"object-observer": "^5.0.0"
 	},
 	"devDependencies": {
 		"eslint": "^8.9.0"
